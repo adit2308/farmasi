@@ -1,0 +1,6 @@
+<?php defined('BASEPATH') or die('No direct script access allowed');
+
+require('./application/third_party/vendor/autoload.php');
+
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
